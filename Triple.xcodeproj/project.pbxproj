@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67EAD468C820049D1EA5AA00 /* Pods_Triple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385E2C9D315050DC8B19E8E2 /* Pods_Triple.framework */; };
+		E40C0F66241A1D0000BC9491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C0F65241A1D0000BC9491 /* AppDelegate.swift */; };
+		E40C0F68241A1D0000BC9491 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C0F67241A1D0000BC9491 /* SceneDelegate.swift */; };
+		E40C0F6A241A1D0000BC9491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C0F69241A1D0000BC9491 /* ViewController.swift */; };
+		E40C0F6D241A1D0000BC9491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40C0F6B241A1D0000BC9491 /* Main.storyboard */; };
+		E40C0F6F241A1D0200BC9491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40C0F6E241A1D0200BC9491 /* Assets.xcassets */; };
+		E40C0F72241A1D0200BC9491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40C0F70241A1D0200BC9491 /* LaunchScreen.storyboard */; };
+		E40C0F7D241A1D0200BC9491 /* TripleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C0F7C241A1D0200BC9491 /* TripleTests.swift */; };
+		F4EF39199719FCE50FF5FDE3 /* Pods_TripleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2EBCE8AE3E0813DAB9DB43 /* Pods_TripleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E40C0F79241A1D0200BC9491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E40C0F5A241A1D0000BC9491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E40C0F61241A1D0000BC9491;
+			remoteInfo = Triple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028F10E77F19EC87D9D2E68A /* Pods-Triple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triple.debug.xcconfig"; path = "Target Support Files/Pods-Triple/Pods-Triple.debug.xcconfig"; sourceTree = "<group>"; };
+		385E2C9D315050DC8B19E8E2 /* Pods_Triple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Triple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		574DFF3455C116C9AFD2A09A /* Pods-Triple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triple.release.xcconfig"; path = "Target Support Files/Pods-Triple/Pods-Triple.release.xcconfig"; sourceTree = "<group>"; };
+		6A9D1DE4B0A765294550563D /* Pods-TripleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripleTests.release.xcconfig"; path = "Target Support Files/Pods-TripleTests/Pods-TripleTests.release.xcconfig"; sourceTree = "<group>"; };
+		842B90CAADE6804585D17276 /* Pods-TripleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripleTests.debug.xcconfig"; path = "Target Support Files/Pods-TripleTests/Pods-TripleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD2EBCE8AE3E0813DAB9DB43 /* Pods_TripleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40C0F62241A1D0000BC9491 /* Triple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40C0F65241A1D0000BC9491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E40C0F67241A1D0000BC9491 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E40C0F69241A1D0000BC9491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E40C0F6C241A1D0000BC9491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E40C0F6E241A1D0200BC9491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E40C0F71241A1D0200BC9491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E40C0F73241A1D0200BC9491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40C0F78241A1D0200BC9491 /* TripleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40C0F7C241A1D0200BC9491 /* TripleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleTests.swift; sourceTree = "<group>"; };
+		E40C0F7E241A1D0200BC9491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E40C0F5F241A1D0000BC9491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EAD468C820049D1EA5AA00 /* Pods_Triple.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40C0F75241A1D0200BC9491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EF39199719FCE50FF5FDE3 /* Pods_TripleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DFB6897F9670CCEC6FAB654 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				385E2C9D315050DC8B19E8E2 /* Pods_Triple.framework */,
+				DD2EBCE8AE3E0813DAB9DB43 /* Pods_TripleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		519FD236A1934D63135BE37E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				028F10E77F19EC87D9D2E68A /* Pods-Triple.debug.xcconfig */,
+				574DFF3455C116C9AFD2A09A /* Pods-Triple.release.xcconfig */,
+				842B90CAADE6804585D17276 /* Pods-TripleTests.debug.xcconfig */,
+				6A9D1DE4B0A765294550563D /* Pods-TripleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E40C0F59241A1D0000BC9491 = {
+			isa = PBXGroup;
+			children = (
+				E40C0F64241A1D0000BC9491 /* Triple */,
+				E40C0F7B241A1D0200BC9491 /* TripleTests */,
+				E40C0F63241A1D0000BC9491 /* Products */,
+				519FD236A1934D63135BE37E /* Pods */,
+				1DFB6897F9670CCEC6FAB654 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E40C0F63241A1D0000BC9491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40C0F62241A1D0000BC9491 /* Triple.app */,
+				E40C0F78241A1D0200BC9491 /* TripleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E40C0F64241A1D0000BC9491 /* Triple */ = {
+			isa = PBXGroup;
+			children = (
+				E40C0F65241A1D0000BC9491 /* AppDelegate.swift */,
+				E40C0F67241A1D0000BC9491 /* SceneDelegate.swift */,
+				E40C0F69241A1D0000BC9491 /* ViewController.swift */,
+				E40C0F6B241A1D0000BC9491 /* Main.storyboard */,
+				E40C0F6E241A1D0200BC9491 /* Assets.xcassets */,
+				E40C0F70241A1D0200BC9491 /* LaunchScreen.storyboard */,
+				E40C0F73241A1D0200BC9491 /* Info.plist */,
+			);
+			path = Triple;
+			sourceTree = "<group>";
+		};
+		E40C0F7B241A1D0200BC9491 /* TripleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E40C0F7C241A1D0200BC9491 /* TripleTests.swift */,
+				E40C0F7E241A1D0200BC9491 /* Info.plist */,
+			);
+			path = TripleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E40C0F61241A1D0000BC9491 /* Triple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40C0F81241A1D0200BC9491 /* Build configuration list for PBXNativeTarget "Triple" */;
+			buildPhases = (
+				D34D2E946152503B6C58397C /* [CP] Check Pods Manifest.lock */,
+				E40C0F5E241A1D0000BC9491 /* Sources */,
+				E40C0F5F241A1D0000BC9491 /* Frameworks */,
+				E40C0F60241A1D0000BC9491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Triple;
+			productName = Triple;
+			productReference = E40C0F62241A1D0000BC9491 /* Triple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E40C0F77241A1D0200BC9491 /* TripleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40C0F84241A1D0200BC9491 /* Build configuration list for PBXNativeTarget "TripleTests" */;
+			buildPhases = (
+				BD0D1E215F87921C3E4F00FD /* [CP] Check Pods Manifest.lock */,
+				E40C0F74241A1D0200BC9491 /* Sources */,
+				E40C0F75241A1D0200BC9491 /* Frameworks */,
+				E40C0F76241A1D0200BC9491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E40C0F7A241A1D0200BC9491 /* PBXTargetDependency */,
+			);
+			name = TripleTests;
+			productName = TripleTests;
+			productReference = E40C0F78241A1D0200BC9491 /* TripleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E40C0F5A241A1D0000BC9491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = yuichi.nakayasu;
+				TargetAttributes = {
+					E40C0F61241A1D0000BC9491 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					E40C0F77241A1D0200BC9491 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E40C0F61241A1D0000BC9491;
+					};
+				};
+			};
+			buildConfigurationList = E40C0F5D241A1D0000BC9491 /* Build configuration list for PBXProject "Triple" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E40C0F59241A1D0000BC9491;
+			productRefGroup = E40C0F63241A1D0000BC9491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E40C0F61241A1D0000BC9491 /* Triple */,
+				E40C0F77241A1D0200BC9491 /* TripleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E40C0F60241A1D0000BC9491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40C0F72241A1D0200BC9491 /* LaunchScreen.storyboard in Resources */,
+				E40C0F6F241A1D0200BC9491 /* Assets.xcassets in Resources */,
+				E40C0F6D241A1D0000BC9491 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40C0F76241A1D0200BC9491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD0D1E215F87921C3E4F00FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D34D2E946152503B6C58397C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Triple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40C0F5E241A1D0000BC9491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40C0F6A241A1D0000BC9491 /* ViewController.swift in Sources */,
+				E40C0F66241A1D0000BC9491 /* AppDelegate.swift in Sources */,
+				E40C0F68241A1D0000BC9491 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40C0F74241A1D0200BC9491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40C0F7D241A1D0200BC9491 /* TripleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E40C0F7A241A1D0200BC9491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E40C0F61241A1D0000BC9491 /* Triple */;
+			targetProxy = E40C0F79241A1D0200BC9491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E40C0F6B241A1D0000BC9491 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40C0F6C241A1D0000BC9491 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E40C0F70241A1D0200BC9491 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40C0F71241A1D0200BC9491 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E40C0F7F241A1D0200BC9491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E40C0F80241A1D0200BC9491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E40C0F82241A1D0200BC9491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 028F10E77F19EC87D9D2E68A /* Pods-Triple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E62W3VPGQ5;
+				INFOPLIST_FILE = Triple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neroblu.app.triple.Triple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E40C0F83241A1D0200BC9491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574DFF3455C116C9AFD2A09A /* Pods-Triple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E62W3VPGQ5;
+				INFOPLIST_FILE = Triple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neroblu.app.triple.Triple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E40C0F85241A1D0200BC9491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842B90CAADE6804585D17276 /* Pods-TripleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E62W3VPGQ5;
+				INFOPLIST_FILE = TripleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neroblu.app.triple.TripleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triple.app/Triple";
+			};
+			name = Debug;
+		};
+		E40C0F86241A1D0200BC9491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A9D1DE4B0A765294550563D /* Pods-TripleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E62W3VPGQ5;
+				INFOPLIST_FILE = TripleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neroblu.app.triple.TripleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triple.app/Triple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40C0F5D241A1D0000BC9491 /* Build configuration list for PBXProject "Triple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40C0F7F241A1D0200BC9491 /* Debug */,
+				E40C0F80241A1D0200BC9491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40C0F81241A1D0200BC9491 /* Build configuration list for PBXNativeTarget "Triple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40C0F82241A1D0200BC9491 /* Debug */,
+				E40C0F83241A1D0200BC9491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40C0F84241A1D0200BC9491 /* Build configuration list for PBXNativeTarget "TripleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40C0F85241A1D0200BC9491 /* Debug */,
+				E40C0F86241A1D0200BC9491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E40C0F5A241A1D0000BC9491 /* Project object */;
+}
