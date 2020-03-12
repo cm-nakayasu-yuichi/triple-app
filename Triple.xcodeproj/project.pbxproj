@@ -15,6 +15,7 @@
 		E40C0F6F241A1D0200BC9491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40C0F6E241A1D0200BC9491 /* Assets.xcassets */; };
 		E40C0F72241A1D0200BC9491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40C0F70241A1D0200BC9491 /* LaunchScreen.storyboard */; };
 		E40C0F7D241A1D0200BC9491 /* TripleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40C0F7C241A1D0200BC9491 /* TripleTests.swift */; };
+		E4AED36A241A30140040A63A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4AED369241A30140040A63A /* GoogleService-Info.plist */; };
 		F4EF39199719FCE50FF5FDE3 /* Pods_TripleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2EBCE8AE3E0813DAB9DB43 /* Pods_TripleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		E40C0F78241A1D0200BC9491 /* TripleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40C0F7C241A1D0200BC9491 /* TripleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleTests.swift; sourceTree = "<group>"; };
 		E40C0F7E241A1D0200BC9491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4AED369241A30140040A63A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,6 @@
 				842B90CAADE6804585D17276 /* Pods-TripleTests.debug.xcconfig */,
 				6A9D1DE4B0A765294550563D /* Pods-TripleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -119,6 +120,7 @@
 				E40C0F6E241A1D0200BC9491 /* Assets.xcassets */,
 				E40C0F70241A1D0200BC9491 /* LaunchScreen.storyboard */,
 				E40C0F73241A1D0200BC9491 /* Info.plist */,
+				E4AED369241A30140040A63A /* GoogleService-Info.plist */,
 			);
 			path = Triple;
 			sourceTree = "<group>";
@@ -143,6 +145,7 @@
 				E40C0F5E241A1D0000BC9491 /* Sources */,
 				E40C0F5F241A1D0000BC9491 /* Frameworks */,
 				E40C0F60241A1D0000BC9491 /* Resources */,
+				55181DF22774C52D24CFB5E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E40C0F72241A1D0200BC9491 /* LaunchScreen.storyboard in Resources */,
+				E4AED36A241A30140040A63A /* GoogleService-Info.plist in Resources */,
 				E40C0F6F241A1D0200BC9491 /* Assets.xcassets in Resources */,
 				E40C0F6D241A1D0000BC9491 /* Main.storyboard in Resources */,
 			);
@@ -231,6 +235,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		55181DF22774C52D24CFB5E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Triple/Pods-Triple-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Triple/Pods-Triple-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Triple/Pods-Triple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BD0D1E215F87921C3E4F00FD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,16 +467,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = E62W3VPGQ5;
 				INFOPLIST_FILE = Triple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.neroblu.app.triple.Triple;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neroblu.app.triple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,16 +487,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = E62W3VPGQ5;
 				INFOPLIST_FILE = Triple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.neroblu.app.triple.Triple;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neroblu.app.triple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
